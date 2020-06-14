@@ -17929,6 +17929,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   /* Display block instead of inline */
   transition: 0.3s;
   /* Transition effects on hover (color) */
+  font-family: 'Anton', sans-serif;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -17944,6 +17945,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   top: -35px;
   right: 25px;
   font-size: 60px;
+  font-family: 'Anton', sans-serif;
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
