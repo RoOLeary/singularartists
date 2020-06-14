@@ -17966,6 +17966,16 @@ h1, h2, h3, h4, h5, h6, p, a {
   color: #ff0;
 }
 
+.transition-links {
+  padding-left: 5%;
+  transition: all .5s ease-in-out;
+}
+
+.transition-links:hover {
+  color: #ff0;
+  padding-left: 15%;
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;

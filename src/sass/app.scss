@@ -16,3 +16,55 @@ h1, h2, h3, h4, h5, h6, p, a {
         color: #ff0;
     }
 }
+
+.transition-links{
+    padding-left: 5%; 
+    transition: all .5s ease-in-out; 
+
+    &:hover{
+        color: #ff0;
+        padding-left: 15%; 
+    }
+}
+
+
+// h1{
+//         text-align: center;
+//         position: relative;
+//         color: #fff;    
+//         margin: 0 -30px 30px -30px;
+//         padding: 10px 0; 
+//         text-shadow: 0 1px rgba(0,0,0,.8);
+//         background: #5c5c5c;
+//         background-image: -moz-linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+//         background-image: -webkit-linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+//         background-image: -o-linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+//         background-image: -ms-linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+//         background-image:  linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+//         -moz-box-shadow: 0 2px 0 rgba(0,0,0,.3);
+//         -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.3);
+//         box-shadow: 0 2px 0 rgba(0,0,0,.3);
+//     }
+    
+//     h1:before, h1:after
+//     {
+//         content: '';
+//         position: absolute;
+//         border-style: solid;
+//         border-color: transparent;
+//         bottom: -10px;
+//     }
+    
+//     h1:before
+//     {
+//         border-width: 0 10px 10px 0;
+//         border-right-color: #222;
+//         left: 0;
+//     }
+    
+//     h1:after
+//     {
+//         border-width: 0 0 10px 10px;
+//         border-left-color: #222;
+//         right: 0;
+//     }
