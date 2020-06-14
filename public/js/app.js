@@ -1064,17 +1064,18 @@ var ScrollLinks = /*#__PURE__*/function () {
       $el: $el
     };
     this.options = _objectSpread(_objectSpread({}, ScrollLinks.prototype.defaults), options);
-    this.scrollTrigger = document.querySelectorAll('a.scroll');
   }
 
   _createClass(ScrollLinks, [{
     key: "init",
     value: function init() {
-      var scrollLinks = Array.from(this.scrollTrigger);
+      var scrollTrigger = document.querySelectorAll('a.scroll');
+      var scrollLinks = Array.from(scrollTrigger);
       scrollLinks.forEach(function (scrolllink) {
         scrolllink.addEventListener('click', function (e) {
-          //e.preventDefault(); 
+          e.preventDefault();
           var link = scrolllink.getAttribute('data-target');
+          console.log(document.querySelector(link));
           document.querySelector(link).scrollIntoView({
             behaviour: 'smooth'
           });
